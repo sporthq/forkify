@@ -141,11 +141,8 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const newFeatture = function(){
-  console.log(
-    'hello Im testing functiongit'
-  );
-}
+
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -156,7 +153,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
 
-  newFeatture()
+ 
 };
 init();
 // window.addEventListener('hashchange', controlRecipes);
