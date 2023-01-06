@@ -143,7 +143,7 @@ const controlAddRecipe = async function (newRecipe) {
 
 const newFeatture = function(){
   console.log(
-    'hello'
+    'hello Im testing functiongit'
   );
 }
 const init = function () {
